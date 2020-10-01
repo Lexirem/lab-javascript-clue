@@ -125,4 +125,4 @@ let pickMystery = () => {
 let revealMystery = pickMystery => {
     return `${pickMystery.suspect.infoCharacter.firstName} ${pickMystery.suspect.infoCharacter.lastName} killed Mr. Boddy using the ${pickMystery.weapon.weapon} in the ${pickMystery.room.name}!`
 }
-revealMystery(pickMystery())
+console.log(revealMystery(pickMystery()));
